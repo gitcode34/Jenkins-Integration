@@ -3,7 +3,6 @@ node('master') {
         git 'https://github.com/gitcode34/Jenkins-Integration.git'
     }
     
-    dir('Lesson5') {
         printMessage('Running Pipeline')
         
         stage("Testing") {
